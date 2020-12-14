@@ -1,0 +1,23 @@
+.theme--light {
+}
+
+.theme--dark {
+	&.v-application,
+	.v-navigation-drawer,
+	.v-navigation-drawer__border,
+	.v-tabs > .v-tabs-bar {
+		background: #000 !important;
+	}
+	.shopCart {
+		.v-card,
+		.v-sheet.v-list {
+			background: #40424a;
+		}
+		.v-card.cardStyle {
+			background: #54565e !important;
+		}
+	}
+}
+.full-height {
+	height: 100%;
+}
