@@ -60,4 +60,7 @@ export default {
 	border-radius: 5px;
 	text-align: center;
 }
+.v-list-item {
+	flex-wrap: wrap;
+}
 </style>
